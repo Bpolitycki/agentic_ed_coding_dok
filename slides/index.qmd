@@ -139,7 +139,11 @@ TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte �
 :::
 
 ::: {.setup-repositories}
-**Material & Auswertung** · [Coding-Lab](https://github.com/Bpolitycki/agentic_ed_coding_lab) · [Dokumentation & Foliensatz](https://github.com/Bpolitycki/agentic_ed_coding_dok)
+**Coding-Lab**  
+[github.com/Bpolitycki/agentic_ed_coding_lab](https://github.com/Bpolitycki/agentic_ed_coding_lab)
+
+**Dokumentation & Foliensatz**  
+[github.com/Bpolitycki/agentic_ed_coding_dok](https://github.com/Bpolitycki/agentic_ed_coding_dok)
 :::
 
 <small>Qualitative Exploration · identische Datenbasis · funktional vergleichbare Zugriffsrechte · getrennte Runs</small>

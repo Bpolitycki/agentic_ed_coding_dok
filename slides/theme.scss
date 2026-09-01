@@ -169,8 +169,16 @@ $link-color: #a8442c;
   padding-top: 0.58em;
   border-top: 1px solid rgba(30, 36, 40, 0.2);
   color: #5e666b;
-  font-size: 0.48em;
+  font-size: 0.5em;
   line-height: 1.35;
+}
+
+.reveal .setup-repositories p {
+  margin: 0 0 0.42em;
+}
+
+.reveal .setup-repositories p:last-child {
+  margin-bottom: 0;
 }
 
 .reveal .setup-repositories strong {
@@ -179,6 +187,7 @@ $link-color: #a8442c;
 }
 
 .reveal .setup-repositories a {
+  display: inline-block;
   color: #1e2428;
   text-decoration-color: rgba(168, 68, 44, 0.55);
   text-underline-offset: 0.16em;
