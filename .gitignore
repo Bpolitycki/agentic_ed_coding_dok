@@ -42,6 +42,10 @@
 *.rubbercache
 rubber.cache
 
+# Quarto build and temporary PDF inspection files
+_site/
+tmp/
+
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/
@@ -310,3 +314,6 @@ TSWLatexianTemp*
 .DS_Store
 # ignore tmp odd
 *.tmp
+
+/.quarto/
+**/*.quarto_ipynb
