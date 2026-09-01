@@ -12,10 +12,6 @@ format:
     footer: '<span class="footer-affiliation">Bergische Universität Wuppertal · Lehrstuhl für Digital Humanities</span><span class="footer-separator" aria-hidden="true">·</span><a class="footer-contact" href="mailto:politycki@uni-wuppertal.de" aria-label="E-Mail an Bastian Politycki"><i class="bi-envelope" aria-hidden="true"></i><span>politycki@uni-wuppertal.de</span></a><span class="footer-separator" aria-hidden="true">·</span><a class="footer-contact" href="https://github.com/Bpolitycki" aria-label="GitHub-Profil von Bastian Politycki"><i class="bi-github" aria-hidden="true"></i><span>github.com/Bpolitycki</span></a>'
 ---
 
-::: {.icon-dependency aria-hidden="true"}
-{{< bi envelope >}}{{< bi github >}}
-:::
-
 # Editionsagenten {.title-slide .center}
 
 ::: {.title-subtitle}
@@ -25,6 +21,10 @@ Wie gestalten große Sprachmodelle digitale Editionen?
 ::: {.title-meta}
 <div>Bastian Politycki</div>
 <div>Editopia 2026 · Wuppertal · 2.–4. September 2026</div>
+:::
+
+::: {.icon-dependency aria-hidden="true"}
+{{< bi envelope >}}{{< bi github >}}
 :::
 
 # {.question-slide}
@@ -117,41 +117,49 @@ Coding-Agenten verbinden ein Sprachmodell mit Werkzeugen für:
 ::: {.setup-dataset}
 **Gemeinsame Datengrundlage**<br>
 *Digitale Edition der Tagebücher Andreas Okopenkos*<br>
-TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte · projektspezifisches Schema · IIIF-Faksimiles
+TEI-Transkriptionen · Register · Stand-off-Kommentare · reda>ktionelle Texte · projektspezifisches Schema · IIIF-Faksimiles
 :::
 
-::: {.setup-columns}
-::: {.setup-column}
-::: {.setup-heading}
-Verglichene Systeme
+### Verglichene Systeme
+
+::: {.agent-run}
+::: {.agent-name}
+Claude Code
+:::
+::: {.agent-specs}
+
+- Modell: Opus 5
+- Reasoning: Medium
+
+:::
 :::
 
 ::: {.agent-run}
-**Claude Code** · Modell: Opus 5 · Reasoning: Medium
+::: {.agent-name}
+OpenAI Codex
+:::
+::: {.agent-specs}
+
+- Modell: GPT-5.6 Sol
+- Reasoning: Medium
+
+:::
 :::
 
 ::: {.agent-run}
-**OpenAI Codex** · Modell: GPT-5.6 Sol · Reasoning: Medium
+::: {.agent-name}
+OpenCode
 :::
+::: {.agent-specs}
 
-::: {.agent-run}
-**OpenCode** · Modell: Kimi K3 · Reasoning: Default
-:::
-:::
+- Modell: Kimi K3
+- Reasoning: Default
 
-::: {.setup-column}
-::: {.setup-heading}
-Identische Aufgabenfolge
+:::
 :::
 
 ::: {.setup-task}
-
-- Repository analysieren
-- Webanwendung entwickeln
-- Eigene Lösung prüfen und überarbeiten
-
-:::
-:::
+**Identische Aufgabenfolge** · Repository analysieren → Webanwendung entwickeln → eigene Lösung prüfen und überarbeiten
 :::
 
 ::: {.setup-repositories}
@@ -161,8 +169,6 @@ Identische Aufgabenfolge
 **Dokumentation & Foliensatz**
 [github.com/Bpolitycki/agentic_ed_coding_dok](https://github.com/Bpolitycki/agentic_ed_coding_dok)
 :::
-
-<small>Qualitative Exploration · identische Datenbasis · funktional vergleichbare Zugriffsrechte · getrennte Runs</small>
 
 # Erwartungshorizont
 
@@ -261,12 +267,28 @@ Alle drei Systeme erzeugen lauffähige, statische Webanwendungen.
 :::
 :::
 
-::: {.finding-row}
-**Wissenschaftliche Funktionen** · Keine der drei Anwendungen bietet eine Zitierempfehlung oder Zitierfunktion.
+::: {.finding-row .finding-list-row}
+::: {.finding-label}
+Wissenschaftliche Funktionen
+:::
+::: {.finding-list}
+
+- keine Zitierempfehlung
+- keine Zitierfunktion
+
+:::
 :::
 
-::: {.finding-row}
-**Adressierbarkeit** · Claude und OpenCode erzeugen referenzierbare Ansichten; Codex folgt stärker einer App-Logik ohne eigene URL-History.
+::: {.finding-row .finding-list-row}
+::: {.finding-label}
+Adressierbarkeit
+:::
+::: {.finding-list}
+
+- Claude und OpenCode: referenzierbare Ansichten
+- Codex: App-Logik ohne eigene URL-History
+
+:::
 :::
 
 # Befund 3: Entitäten werden zu Interface-Standards
