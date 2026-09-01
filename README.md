@@ -15,7 +15,6 @@ dokumentiert.
 - `docs/analysis/`: Auswertungsinstrumente, deskriptive Befunde und Synthese
 - `docs/expectations.md`, `docs/prompts.md`: Erwartungshorizont und Aufgabenfolge
 - `slides/`: Quarto-/reveal.js-Foliensatz und dessen Assets
-- `references/`: Literatur- und Quellenverwaltung
 
 ## Arbeitsprinzip
 
@@ -28,6 +27,3 @@ epistemischen Ordnungen, die aus derselben Editionsdatenbasis entstehen.
 ```sh
 quarto render slides/index.qmd
 ```
-
-Die HTML-Folien sind das primäre Präsentationsformat. Eine PDF-Fassung wird
-erst nach der inhaltlichen Konsolidierung erzeugt.
