@@ -115,11 +115,13 @@ Coding-Agenten verbinden ein Sprachmodell mit Werkzeugen für:
 # Versuchsanordnung
 
 ::: {.setup-dataset}
-**Gemeinsame Datengrundlage**
-*Digitale Edition der Tagebücher Andreas Okopenkos*
+**Gemeinsame Datengrundlage**<br>
+*Digitale Edition der Tagebücher Andreas Okopenkos*<br>
 TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte · projektspezifisches Schema · IIIF-Faksimiles
 :::
 
+::: {.setup-columns}
+::: {.setup-column}
 ### Verglichene Systeme
 
 ::: {.agent-run}
@@ -133,16 +135,26 @@ TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte �
 ::: {.agent-run}
 **OpenCode** · Modell: Kimi K3 · Reasoning: Default
 :::
+:::
+
+::: {.setup-column}
+### Identische Aufgabenfolge
 
 ::: {.setup-task}
-**Identische Aufgabenfolge** · Repository analysieren → Webanwendung entwickeln → eigene Lösung prüfen und überarbeiten
+
+- Repository analysieren
+- Webanwendung entwickeln
+- Eigene Lösung prüfen und überarbeiten
+
+:::
+:::
 :::
 
 ::: {.setup-repositories}
-**Coding-Lab**  
+**Coding-Lab**
 [github.com/Bpolitycki/agentic_ed_coding_lab](https://github.com/Bpolitycki/agentic_ed_coding_lab)
 
-**Dokumentation & Foliensatz**  
+**Dokumentation & Foliensatz**
 [github.com/Bpolitycki/agentic_ed_coding_dok](https://github.com/Bpolitycki/agentic_ed_coding_dok)
 :::
 
@@ -188,7 +200,7 @@ TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte �
 # Befund 1: Die Agenten verstehen erstaunlich viel
 
 ::: {.finding-intro}
-**Gemeinsamer Ausgangsbefund**
+**Gemeinsamer Ausgangsbefund**<br>
 Alle drei Systeme erzeugen lauffähige, statische Webanwendungen.
 :::
 

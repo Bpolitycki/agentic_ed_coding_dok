@@ -134,8 +134,26 @@ $link-color: #a8442c;
   font-weight: 500;
 }
 
-.reveal .slides section:not(.title-slide) .agent-run {
+.reveal .setup-columns {
+  display: flex;
+  gap: 5%;
+  align-items: flex-start;
   max-width: 88%;
+  margin: 0;
+}
+
+.reveal .setup-column {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.reveal .setup-column > h3 {
+  margin: 0 0 0.55em;
+  font-size: 0.72em;
+}
+
+.reveal .slides section:not(.title-slide) .agent-run {
+  max-width: 100%;
   margin: 0;
   padding: 0.52em 0;
   border-top: 1px solid rgba(30, 36, 40, 0.2);
@@ -151,16 +169,26 @@ $link-color: #a8442c;
 }
 
 .reveal .setup-task {
-  max-width: 88%;
-  margin: 1.35em 0 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.52em 0;
+  border-top: 1px solid rgba(30, 36, 40, 0.2);
   color: #1e2428;
-  font-size: 0.64em;
+  font-size: 0.62em;
   line-height: 1.35;
 }
 
-.reveal .setup-task strong {
-  color: #a8442c;
-  font-weight: 600;
+.reveal .setup-task ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+
+.reveal .setup-task li {
+  margin: 0 0 0.33em;
+}
+
+.reveal .setup-task li:last-child {
+  margin-bottom: 0;
 }
 
 .reveal .setup-repositories {
