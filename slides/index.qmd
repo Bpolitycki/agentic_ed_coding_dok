@@ -122,7 +122,9 @@ TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte �
 
 ::: {.setup-columns}
 ::: {.setup-column}
-### Verglichene Systeme
+::: {.setup-heading}
+Verglichene Systeme
+:::
 
 ::: {.agent-run}
 **Claude Code** · Modell: Opus 5 · Reasoning: Medium
@@ -138,7 +140,9 @@ TEI-Transkriptionen · Register · Stand-off-Kommentare · redaktionelle Texte �
 :::
 
 ::: {.setup-column}
-### Identische Aufgabenfolge
+::: {.setup-heading}
+Identische Aufgabenfolge
+:::
 
 ::: {.setup-task}
 

@@ -147,9 +147,11 @@ $link-color: #a8442c;
   min-width: 0;
 }
 
-.reveal .setup-column > h3 {
+.reveal .setup-heading {
   margin: 0 0 0.55em;
   font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .reveal .slides section:not(.title-slide) .agent-run {
